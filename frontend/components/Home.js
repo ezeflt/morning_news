@@ -20,7 +20,7 @@ function Home() {
    *
    */
   useEffect(() => {
-    fetch("http://localhost:3000/articles")
+    fetch("https://morning-back.vercel.app/articles")
       .then((response) => response.json())
       .then((data) => {
         setTopArticleData(data.articles[0]); // store the top article to state

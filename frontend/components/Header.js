@@ -29,7 +29,7 @@ function Header() {
 	 * then add (username, token) to the user local storage
 	 */
 	const handleRegister = () => {
-		fetch('http://localhost:3000/users/signup', {
+		fetch('https://morning-back.vercel.app/users/signup', {
 			method: 'POST',
 			headers: { 'Content-Type': 'application/json' },
 			body: JSON.stringify({ username: signUpUsername, password: signUpPassword }),
@@ -52,7 +52,7 @@ function Header() {
 	 * then add (username, token) to the user local storage
 	 */
 	const handleConnection = () => {
-		fetch('http://localhost:3000/users/signin', {
+		fetch('https://morning-back.vercel.app/users/signin', {
 			method: 'POST',
 			headers: { 'Content-Type': 'application/json' },
 			body: JSON.stringify({ username: signInUsername, password: signInPassword }),
