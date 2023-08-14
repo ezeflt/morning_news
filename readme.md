@@ -2,15 +2,15 @@
   <img src="./frontend/public/readmeImg/morningLogo.png" alt="Morning logo" width="50%" />
 </div>
 
-Morning News se présente comme une application web raffinée, conçue pour vous tenir informé des annonces et actualités les plus récentes. D'une interface fluide et intuitive, cette plateforme vous ouvre les portes des dernières informations issues des journaux du moment. Lorsqu'une annonce capture votre attention de manière particulière, notre application vous offre la possibilité de prendre les rênes en créant votre propre compte personnel. Grâce à ce compte dédié, vous avez la liberté d'enregistrer vos articles favoris et de les consulter à votre guise ultérieurement. Vivez l'expérience pratique de garder une trace des nouvelles qui résonnent le plus avec vous. Plongez-vous dans l'univers de l'information avec facilité et élégance grâce à Morning News.
+Morning News est une plateforme web sophistiquée qui vous maintient au courant des annonces et des actualités les plus récentes. Son interface intuitive vous donne accès aux dernières informations des journaux en toute fluidité. Si une annonce particulière attire votre attention, créez un compte personnel pour enregistrer vos articles préférés et les consulter ultérieurement. Restez connecté à l'actualité qui vous importe grâce à Morning News.
 
 # Technologie utilisée
 
 Frontend
 - Javascript
 - React js
-- HTML 5
-- CSS 3
+- HTML
+- CSS
 
 Backend
 - Node js
@@ -18,17 +18,15 @@ Backend
 
 ### lien du site https://morning-frontend-ugd2.vercel.app/
 
-# Prérequis pour lancer le projet en local
-##### à demander en privé
-- lien d'acces à la base de donnée 
-- Clé d'acces à l'API 
-
 # Installation
 
 Exécutez ces lignes de commande dans votre terminal sur votre ordinateur
 `````bash
 git clone https://github.com/ezeflt/morning_news.git
-cd morning_news
+cd morning_news/backend
+nodemon
+cd ..
+cd frontend
 yarn install
 yarn dev
 `````
