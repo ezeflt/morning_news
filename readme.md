@@ -29,10 +29,7 @@ Backend
 Exécutez ces lignes de commande dans votre terminal sur votre ordinateur
 `````bash
 git clone https://github.com/ezeflt/morning_news.git
-cd morning_news/backend
-nodemon
-cd ..
-cd frontend
+cd morning_news/frontend
 yarn install
 yarn dev
 `````
