@@ -18,7 +18,13 @@ Backend
 
 ### lien du site https://morning-frontend-ugd2.vercel.app/
 
-# Installation
+# Prérequis pour l'installation local
+
+- Node js
+- Next js
+
+
+# Installation local 
 
 Exécutez ces lignes de commande dans votre terminal sur votre ordinateur
 `````bash
