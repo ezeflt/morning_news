@@ -7,20 +7,22 @@ Morning News est une plateforme web sophistiquée qui vous maintient au courant 
 # Technologie utilisée
 
 Frontend
-- Javascript
-- React js
-- HTML
-- CSS
+- React js (framework)
+- Next js (framework)
+- 
+- CSS ( style page)
 
 Backend
-- Node js
-- Express js
+- Node js (langage)
+- Express js (framework)
+
+API
+- newsapi (api)
 
 ### lien du site https://morning-frontend-ugd2.vercel.app/
 
 # Prérequis pour l'installation local
 
-- Node js
 - Next js
 
 
