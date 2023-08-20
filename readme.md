@@ -9,8 +9,8 @@ Morning News est une plateforme web sophistiquée qui vous maintient au courant 
 Frontend
 - React js (framework)
 - Next js (framework)
-- 
-- CSS ( style page)
+- redux (stockage local)
+- CSS (style page)
 
 Backend
 - Node js (langage)
